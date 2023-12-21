@@ -6,7 +6,7 @@ Permet de revenir en arrière si on casse notre code.
 Avoir des points de versions qui foncitonne.
 Permet d'avoir une sérénité d'esprit pour tester du code sans avoir peur de tout casser sans pouvoir revenir en arrière.
 
-éviter de s'envoyer des Zip avec le code, on peut passer directement par github et l'envoyer via le lien du Repo.
+Eviter de s'envoyer des Zip avec le code, on peut passer directement par github et l'envoyer via le lien du Repo.
 
 git merge : fusionner, pour travailler à plusieurs sur le meme projet.
 
@@ -44,3 +44,7 @@ Fonctions principales :
 
 `git push` : pousser les nouveautés du dépôt locl vers le serveur.
 `git pull` : Recevoir les nouveautés du serveur sur le dépôt local.
+
+Branche de travail : 
+- Permet de préserver le contenu de la branche principale en attendant de valider le contenu de la branche de travail.
+- Les branches de travail oeuvent aussi être synchronisées avec le serveur.
