@@ -29,55 +29,55 @@ Git :
 
 Possibilité d'installer GitHub Desktop si on veut une interface graphique mais cela n'inclu pas forcémenent l'ensemble des fonctions de Git.
 
-Fonctions principales :
+# Fonctions principales :
 
-`git init` : Initialiser un dépot git
+- `git init` : Initialiser un dépot git
 
-`git status` : Consulter l'état de l'espace de travail
+- `git status` : Consulter l'état de l'espace de travail
 
-`git add` : Ajouter des modifications à la zone d'attente
+- `git add` : Ajouter des modifications à la zone d'attente
 
-`git commit` : Enregistrer les modifications en attente dans un commit (-m "message du commit").
+-`git commit` : Enregistrer les modifications en attente dans un commit (-m "message du commit").
 
 
-`git log` : Afficher l'historique des versions
+-`git log` : Afficher l'historique des versions
 
-`git diff` : Affficher les modifications en cours
+-`git diff` : Affficher les modifications en cours
 
-`git show` : Afficher les modifications d'un commit donné
+-`git show` : Afficher les modifications d'un commit donné
 
-`.gitignore`: Ignorer des fichiers en mettant leur nom dans ce fichier.
+-`.gitignore`: Ignorer des fichiers en mettant leur nom dans ce fichier.
 
-`git push` : pousser les nouveautés du dépôt locl vers le serveur.
+-`git push` : pousser les nouveautés du dépôt locl vers le serveur.
 
-`git pull` : Recevoir les nouveautés du serveur sur le dépôt local.
+-`git pull` : Recevoir les nouveautés du serveur sur le dépôt local.
 
-Branche de travail : 
+# Branche de travail : 
 - Permet de préserver le contenu de la branche principale en attendant de valider le contenu de la branche de travail.
 - Les branches de travail oeuvent aussi être synchronisées avec le serveur.
 
-`git checkout -b <branch_name>` : Créer une branche avec le nom contenu dans <branch_name>.
+-`git checkout -b <branch_name>` : Créer une branche avec le nom contenu dans <branch_name>.
 
-`git checkout <branch_name>` : Basculer d'une branche à l'autre.
+-`git checkout <branch_name>` : Basculer d'une branche à l'autre.
 
-`git branch` : Afficher les branches existantes.
+-`git branch` : Afficher les branches existantes.
 
-git merge sur main, en ajoutant le nom de la branche qu'on veut merge sur main.
+-git merge sur main, en ajoutant le nom de la branche qu'on veut merge sur main.
 
-`git log --all --graph` : avoir une représentation graphique de nos branches et fusion de branches.
+-`git log --all --graph` : avoir une représentation graphique de nos branches et fusion de branches.
 
-`git branch -D <nom_branche_a_suppr>` : supprime la branche que dont on a plus besoin.
+-`git branch -D <nom_branche_a_suppr>` : supprime la branche que dont on a plus besoin.
 
-`git restore .` : Reviens au dernier commit sur tout les fichiers (.)
+-`git restore .` : Reviens au dernier commit sur tout les fichiers (.)
 
-`git clean . -f` : Pour supprimer les derniers fichiers créé qui ne correspondent pas au dernier commit.
+-`git clean . -f` : Pour supprimer les derniers fichiers créé qui ne correspondent pas au dernier commit.
 
-`git statch` : permet de mettre de côté une partie de ce qu'ont veut.
+-`git statch` : permet de mettre de côté une partie de ce qu'ont veut.
 
-`git statch pop` : permet de re-afficher ce qui avait été mis de côté.
+-`git statch pop` : permet de re-afficher ce qui avait été mis de côté.
 
-`git statch list` : voir les changements en réserve.
+-`git statch list` : voir les changements en réserve.
 
-`git commit --amend` : Ajouter de nouvelles modifications au dernier commit
+-`git commit --amend` : Ajouter de nouvelles modifications au dernier commit
 
-`git reset <id>` : Je veux garder mon code actuel mais je veux supprimer des commits superflu.
+-`git reset <id>` : Je veux garder mon code actuel mais je veux supprimer des commits superflu.
