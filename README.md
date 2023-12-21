@@ -30,6 +30,7 @@ Git :
 Possibilité d'installer GitHub Desktop si on veut une interface graphique mais cela n'inclu pas forcémenent l'ensemble des fonctions de Git.
 
 Fonctions principales :
+
 `git init` : Initialiser un dépot git
 
 `git status` : Consulter l'état de l'espace de travail
