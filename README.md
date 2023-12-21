@@ -1,3 +1,5 @@
+# Introduction à GIT
+
 ## Fonctions principales :
 
 - Initialise un dépôt Git : `.git init`  
