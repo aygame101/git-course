@@ -1,10 +1,35 @@
 # Introduction à git
+
+## Git : Prise en main d'un système de gestion de versions
+
+Git est un système de gestion de versions qui offre de nombreux avantages :
+
+1. **Revenir en arrière en cas de problème** : Git permet de revenir en arrière si l'on casse notre code, ce qui est essentiel pour maintenir la stabilité d'un projet.
+
+2. **Points de versions fonctionnels** : Il nous offre la possibilité de créer des points de versions stables qui fonctionnent correctement.
+
+3. **Sérénité pour les tests** : Il offre une tranquillité d'esprit lors des tests du code, car on n'a pas à craindre de tout casser sans moyen de retour en arrière.
+
+4. **Éviter les envois de Zip** : Git permet d'éviter l'envoi de fichiers compressés par email. On peut plutôt partager le code via GitHub en utilisant le lien du dépôt (Repo).
+
+5. **Fusionner avec git merge** : Git permet de fusionner des branches, ce qui est essentiel pour travailler à plusieurs sur le même projet.
+
+6. **Travailler sur plusieurs versions simultanément** : Git facilite le travail sur plusieurs versions en même temps. Par exemple, on peut avoir les branches "main", "dev", "v2", etc.
+
+7. **Systèmes de gestion de versions antérieurs** : Avant Git, d'autres types de systèmes de gestion de versions existaient, notamment les systèmes centralisés et les systèmes distribués.
+
+8. **Systèmes centralisés** : Ces systèmes sont basés sur un serveur central qui stocke le code source. Tous les utilisateurs travaillent directement sur ce serveur.
+
+9. **Systèmes distribués** : Git est un système distribué, ce qui signifie que chaque personne a une copie du code source sur son propre ordinateur en local. Cela permet de faire des brouillons en local sans envoyer de modifications directement sur la version en ligne.
+
+10. **Modifier l'historique localement** : Avec Git, vous avez la possibilité de modifier l'historique localement avant de le publier sur le serveur. Cela offre une flexibilité précieuse dans la gestion des versions.
+
+11. **Distribué mais pas décentralisé** : Il est important de noter que Git est distribué, mais pas décentralisé, car il n'y a pas de point central unique de contrôle, mais chaque utilisateur a sa propre copie du dépôt.
+
 ## Comment récuperer un projet git
 - `git clone <urlrepo.git>` : Récupérer un projet git pour travailler desssus.
-
-&nbsp;
  
-## Partie 1 : Fonctions principales
+## Fonctions principales :
 
 ### Initialisation du dépôt
 - `git init` : Initialise un dépôt Git.
@@ -30,9 +55,7 @@
 - `git push` : Pousse les nouveautés du dépôt local vers le serveur.
 - `git pull` : Reçoit les nouveautés du serveur sur le dépôt local.
 
-&nbsp;
-
-# Partie 2 : Branches de travail
+## Branches de travail :
 
 ### Création et navigation de branches
 - `git checkout -b <branch_name>` : Crée une branche avec le nom spécifié.
@@ -61,4 +84,4 @@
 - `git commit --amend` : Ajoute ou corrige de nouvelles modifications au dernier commit.
 - `git reset <id>` : Conserve le code actuel tout en supprimant des commits superflus.
 
-Groupe : Gino, Antoine, Nathan, Ewen.
+**Groupe** : Gino, Antoine, Nathan, Ewen.
