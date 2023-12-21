@@ -33,4 +33,9 @@ Fonctions principales :
 init : initialiser un dépot git
 status : consulter l'état de l'espace de travail
 
-add, commit : écrire dans l'historique
+add : ajouter des modifications à la zone d'attente
+commit : enregistrer les modifications en attente dans un commit (-m "message du commit").
+
+log : afficher l'historique des versions
+diff : affficher les modifications en cours
+show : afficher les modifications d'un commit donné
