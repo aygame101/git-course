@@ -75,3 +75,9 @@ git merge sur main, en ajoutant le nom de la branche qu'on veut merge sur main.
 `git statch` : permet de mettre de côté une partie de ce qu'ont veut.
 
 `git statch pop` : permet de re-afficher ce qui avait été mis de côté.
+
+`git statch list` : voir les changements en réserve.
+
+`git commit --amend` : Ajouter de nouvelles modifications au dernier commit
+
+`git reset <id>` : Je veux garder mon code actuel mais je veux supprimer des commits superflu.
