@@ -17,6 +17,8 @@ Les systèmes centralisés et
 Les systèmes distribués : Permet d'avoir une zone intermédiraire en local. Faire des brouillons en local sans envoyer sur la version en ligne.
 
 Git est un système distribué car chaque personne a une copie sur son ordi en local.
+Possibilité de modifier son historique localement avant de le publier sur le serveur.
+Distribué mais pas décentralisé.
 
 - Gérer du texte
 - Agnostique vis à vis du langage
