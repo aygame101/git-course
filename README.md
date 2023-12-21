@@ -40,4 +40,4 @@ Fonctions principales :
 `git diff` : affficher les modifications en cours
 `git show` : afficher les modifications d'un commit donné
 
-`.gitignore =`: Ignorer des fichiers.
+`.gitignore =`: Ignorer des fichiers en mettant leur nom dans ce fichier.
