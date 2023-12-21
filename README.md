@@ -43,9 +43,10 @@ Git est un système de gestion de versions qui offre de nombreux avantages :
 
 ### Historique
 - `git log` : Affiche l'historique des versions.
+- `git log --all --graph` : Avoir une représentation graphique de nos branches et fusion de branche.
 
 ### Comparaison des modifications
-- `git diff` : Affiche les modifications en cours.
+- `git diff` : Voir le dernier titre du commit
 - `git show [commit_hash]` : Affiche les modifications d'un commit donné.
 
 ### Gestion des fichiers
@@ -66,14 +67,13 @@ Git est un système de gestion de versions qui offre de nombreux avantages :
 
 ### Fusion de branches
 - `git merge <branch_name>` : Fusionne la branche spécifiée dans la branche actuelle.
-- `git log --all --graph` : Représentation graphique des branches et de la fusion.
 
 ### Suppression de branches
 - `git branch -D <nom_branche_a_suppr>` : Supprime une branche inutile.
 
 ### Restauration et nettoyage
-- `git restore .` : Revient au dernier commit sur tous les fichiers.
-- `git clean . -f` : Supprime les fichiers non conformes au dernier commit.
+- `git restore .` : Revenir au dernier commit
+- `git clean . -f` : Revenir au dernier commit et supprime les fichiers.
 
 ### Gestion des modifications en réserve
 - `git stash` : Met de côté une partie des modifications.
@@ -81,7 +81,7 @@ Git est un système de gestion de versions qui offre de nombreux avantages :
 - `git stash list` : Visualise les changements en réserve.
 
 ### Modification des commits
-- `git commit --amend` : Ajoute ou corrige de nouvelles modifications au dernier commit.
-- `git reset <id>` : Conserve le code actuel tout en supprimant des commits superflus.
+- `git commit --amend` : Corriger un commit dans lequel on a oublé d'embarquer des changements
+- `git reset <id>` : Supprimer l'historique commit que je ne souhaite plus. 
 
 **Groupe** : Gino, Antoine, Nathan, Ewen.
