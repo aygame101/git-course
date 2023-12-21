@@ -1,4 +1,5 @@
 # Introduction à git
+![logo-git](git-logo_1.png)
 
 ## Git : Prise en main d'un système de gestion de versions
 
@@ -83,5 +84,8 @@ Git est un système de gestion de versions qui offre de nombreux avantages :
 ### Modification des commits
 - `git commit --amend` : Corriger un commit dans lequel on a oublé d'embarquer des changements
 - `git reset <id>` : Supprimer l'historique commit que je ne souhaite plus. 
+
+
+
 
 **Groupe** : Gino, Antoine, Nathan, Ewen.
