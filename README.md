@@ -1,5 +1,9 @@
-# Introduction à GIT
+# Introduction à git
+## Comment récuperer un projet git
+- `git clone <urlrepo.git>` : Récupérer un projet git pour travailler desssus.
 
+&nbsp;
+ 
 ## Partie 1 : Fonctions principales
 
 ### Initialisation du dépôt
@@ -25,6 +29,8 @@
 ### Interaction avec le serveur
 - `git push` : Pousse les nouveautés du dépôt local vers le serveur.
 - `git pull` : Reçoit les nouveautés du serveur sur le dépôt local.
+
+&nbsp;
 
 # Partie 2 : Branches de travail
 
