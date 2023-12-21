@@ -1,83 +1,31 @@
-# git-course
-## Prise de notes
-Git : prise en main d'un système de gestion de versions
+## Fonctions principales :
 
-Permet de revenir en arrière si on casse notre code.
-Avoir des points de versions qui foncitonne.
-Permet d'avoir une sérénité d'esprit pour tester du code sans avoir peur de tout casser sans pouvoir revenir en arrière.
-
-Eviter de s'envoyer des Zip avec le code, on peut passer directement par github et l'envoyer via le lien du Repo.
-
-git merge : fusionner, pour travailler à plusieurs sur le meme projet.
-
-Permet de travailler sur plusieurs versions en même temps. Exemple classique : main, dev, v2.
-
-D'autres version control system (système de gestion de versions) ont existé avant :
-Les systèmes centralisés et
-Les systèmes distribués : Permet d'avoir une zone intermédiraire en local. Faire des brouillons en local sans envoyer sur la version en ligne.
-
-Git est un système distribué car chaque personne a une copie sur son ordi en local.
-Possibilité de modifier son historique localement avant de le publier sur le serveur.
-Distribué mais pas décentralisé.
-
-Git :
-- Gérer du texte
-- Agnostique vis à vis du langage
-- Sauvegarde de l'historique des versions
-- Aide à la résolution des conflits entre versions parallèles
-- Aide au passage d'une version à l'autre
-
-Possibilité d'installer GitHub Desktop si on veut une interface graphique mais cela n'inclu pas forcémenent l'ensemble des fonctions de Git.
-
-# Fonctions principales :
-
-- `git init` : Initialiser un dépot git
-
-- `git status` : Consulter l'état de l'espace de travail
-
-- `git add` : Ajouter des modifications à la zone d'attente
-
--`git commit` : Enregistrer les modifications en attente dans un commit (-m "message du commit").
+- Initialise un dépôt Git : `.git init`  
+- Consulte l'état de l'espace de travail : `.git status`  
+- Ajoute des modifications à la zone d'attente : `git add .`  
+- Enregistre les modifications en attente dans un commit (-m "message du commit") : `.git commit`  
+- Affiche l'historique des versions : `.git log`  
+- Affiche les modifications en cours : `.git diff` 
+- Affiche les modifications d'un commit donné : `.git show` 
+- Ignore des fichiers en les répertoriant dans ce fichier : `.gitignore` 
+- Pousse les nouveautés du dépôt local vers le serveur : `.git push`  
+- Reçoit les nouveautés du serveur sur le dépôt local : `.git pull` 
 
 
--`git log` : Afficher l'historique des versions
+## Branche de travail :
 
--`git diff` : Affficher les modifications en cours
+Préserve le contenu de la branche principale en attendant la validation de la branche de travail.
+Les branches de travail peuvent être synchronisées avec le serveur.
 
--`git show` : Afficher les modifications d'un commit donné
-
--`.gitignore`: Ignorer des fichiers en mettant leur nom dans ce fichier.
-
--`git push` : pousser les nouveautés du dépôt locl vers le serveur.
-
--`git pull` : Recevoir les nouveautés du serveur sur le dépôt local.
-
-# Branche de travail : 
-- Permet de préserver le contenu de la branche principale en attendant de valider le contenu de la branche de travail.
-- Les branches de travail oeuvent aussi être synchronisées avec le serveur.
-
--`git checkout -b <branch_name>` : Créer une branche avec le nom contenu dans <branch_name>.
-
--`git checkout <branch_name>` : Basculer d'une branche à l'autre.
-
--`git branch` : Afficher les branches existantes.
-
--git merge sur main, en ajoutant le nom de la branche qu'on veut merge sur main.
-
--`git log --all --graph` : avoir une représentation graphique de nos branches et fusion de branches.
-
--`git branch -D <nom_branche_a_suppr>` : supprime la branche que dont on a plus besoin.
-
--`git restore .` : Reviens au dernier commit sur tout les fichiers (.)
-
--`git clean . -f` : Pour supprimer les derniers fichiers créé qui ne correspondent pas au dernier commit.
-
--`git statch` : permet de mettre de côté une partie de ce qu'ont veut.
-
--`git statch pop` : permet de re-afficher ce qui avait été mis de côté.
-
--`git statch list` : voir les changements en réserve.
-
--`git commit --amend` : Ajouter de nouvelles modifications au dernier commit
-
--`git reset <id>` : Je veux garder mon code actuel mais je veux supprimer des commits superflu.
+- Crée une branche avec le nom spécifié dans <branch_name> : `.git checkout -b <branch_name>`  
+- Bascule d'une branche à l'autre : `.git checkout <branch_name>` 
+- Affiche les branches existantes : `.git branch`  
+- La fusion sur la branche principale (git merge) s'effectue en ajoutant le nom de la branche à fusionner. Pour une représentation graphique des branches et de la fusion, utilisez : `.git log --all --graph`
+- Supprime une branche inutile : `.git branch -D <nom_branche_a_suppr>` 
+- Revient au dernier commit sur tous les fichiers (.) : `git restore .` 
+- Supprime les fichiers non conformes au dernier commit : `.git clean . -f` 
+- Met de côté une partie des modifications : `.git statch` 
+- Réaffiche ce qui avait été mis de côté : `.git statch pop`  
+- Visualise les changements en réserve : `.git statch list` 
+- Ajoute de nouvelles modifications au dernier commit : `.git commit --amend` 
+- Conserve le code actuel tout en supprimant des commits superflus : `.git reset <id>` 
