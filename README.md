@@ -61,3 +61,13 @@ Branche de travail :
 `git checkout <branch_name>` : Basculer d'une branche à l'autre.
 
 `git branch` : Afficher les branches existantes.
+
+git merge sur main, en ajoutant le nom de la branche qu'on veut merge sur main.
+
+`git log --all --graph` : avoir une représentation graphique de nos branches et fusion de branches.
+
+`git branch -D <nom_branche_a_suppr>` : supprime la branche que dont on a plus besoin.
+
+`git restore .` : Reviens au dernier commit sur tout les fichiers (.)
+
+`git clean . -f` : Pour supprimer les derniers fichiers créé qui ne correspondent pas au dernier commit.
