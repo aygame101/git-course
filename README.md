@@ -39,3 +39,5 @@ Fonctions principales :
 `git log` : afficher l'historique des versions
 `git diff` : affficher les modifications en cours
 `git show` : afficher les modifications d'un commit donné
+
+`.gitignore =`: Ignorer des fichiers.
