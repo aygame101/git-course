@@ -71,3 +71,7 @@ git merge sur main, en ajoutant le nom de la branche qu'on veut merge sur main.
 `git restore .` : Reviens au dernier commit sur tout les fichiers (.)
 
 `git clean . -f` : Pour supprimer les derniers fichiers créé qui ne correspondent pas au dernier commit.
+
+`git statch` : permet de mettre de côté une partie de ce qu'ont veut.
+
+`git statch pop` : permet de re-afficher ce qui avait été mis de côté.
