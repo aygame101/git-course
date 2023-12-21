@@ -6,3 +6,4 @@ Permet de revenir en arrière si on casse notre code.
 Avoir des points de versions qui foncitonne.
 Permet d'avoir une sérénité d'esprit pour tester du code sans avoir peur de tout casser sans pouvoir revenir en arrière.
 
+git merge : fusionner, pour travailler à plusieurs sur le meme projet.
