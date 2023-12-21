@@ -28,3 +28,9 @@ Git :
 - Aide au passage d'une version à l'autre
 
 Possibilité d'installer GitHub Desktop si on veut une interface graphique mais cela n'inclu pas forcémenent l'ensemble des fonctions de Git.
+
+Fonctions principales :
+init : initialiser un dépot git
+status : consulter l'état de l'espace de travail
+
+add, commit : écrire dans l'historique
