@@ -31,18 +31,24 @@ Possibilité d'installer GitHub Desktop si on veut une interface graphique mais 
 
 Fonctions principales :
 `git init` : Initialiser un dépot git
+
 `git status` : Consulter l'état de l'espace de travail
 
 `git add` : Ajouter des modifications à la zone d'attente
+
 `git commit` : Enregistrer les modifications en attente dans un commit (-m "message du commit").
 
+
 `git log` : Afficher l'historique des versions
+
 `git diff` : Affficher les modifications en cours
+
 `git show` : Afficher les modifications d'un commit donné
 
 `.gitignore`: Ignorer des fichiers en mettant leur nom dans ce fichier.
 
 `git push` : pousser les nouveautés du dépôt locl vers le serveur.
+
 `git pull` : Recevoir les nouveautés du serveur sur le dépôt local.
 
 Branche de travail : 
@@ -50,5 +56,7 @@ Branche de travail :
 - Les branches de travail oeuvent aussi être synchronisées avec le serveur.
 
 `git checkout -b <branch_name>` : Créer une branche avec le nom contenu dans <branch_name>.
+
 `git checkout <branch_name>` : Basculer d'une branche à l'autre.
+
 `git branch` : Afficher les branches existantes.
