@@ -9,3 +9,5 @@ Permet d'avoir une sérénité d'esprit pour tester du code sans avoir peur de t
 éviter de s'envoyer des Zip avec le code, on peut passer directement par github et l'envoyer via le lien du Repo.
 
 git merge : fusionner, pour travailler à plusieurs sur le meme projet.
+
+Permet de travailler sur plusieurs versions en même temps. Exemple classique : main, dev, v2.
