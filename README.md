@@ -20,8 +20,11 @@ Git est un système distribué car chaque personne a une copie sur son ordi en l
 Possibilité de modifier son historique localement avant de le publier sur le serveur.
 Distribué mais pas décentralisé.
 
+Git :
 - Gérer du texte
 - Agnostique vis à vis du langage
 - Sauvegarde de l'historique des versions
 - Aide à la résolution des conflits entre versions parallèles
 - Aide au passage d'une version à l'autre
+
+Possibilité d'installer GitHub Desktop si on veut une interface graphique mais cela n'inclu pas forcémenent l'ensemble des fonctions de Git.
