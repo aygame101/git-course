@@ -30,14 +30,17 @@ Git :
 Possibilité d'installer GitHub Desktop si on veut une interface graphique mais cela n'inclu pas forcémenent l'ensemble des fonctions de Git.
 
 Fonctions principales :
-`git init` : initialiser un dépot git
-`git status` : consulter l'état de l'espace de travail
+`git init` : Initialiser un dépot git
+`git status` : Consulter l'état de l'espace de travail
 
-`git add` : ajouter des modifications à la zone d'attente
-`git commit` : enregistrer les modifications en attente dans un commit (-m "message du commit").
+`git add` : Ajouter des modifications à la zone d'attente
+`git commit` : Enregistrer les modifications en attente dans un commit (-m "message du commit").
 
-`git log` : afficher l'historique des versions
-`git diff` : affficher les modifications en cours
-`git show` : afficher les modifications d'un commit donné
+`git log` : Afficher l'historique des versions
+`git diff` : Affficher les modifications en cours
+`git show` : Afficher les modifications d'un commit donné
 
-`.gitignore =`: Ignorer des fichiers en mettant leur nom dans ce fichier.
+`.gitignore`: Ignorer des fichiers en mettant leur nom dans ce fichier.
+
+`git push` : pousser les nouveautés du dépôt locl vers le serveur.
+`git pull` : Recevoir les nouveautés du serveur sur le dépôt local.
