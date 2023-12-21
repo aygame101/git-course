@@ -13,7 +13,10 @@ git merge : fusionner, pour travailler à plusieurs sur le meme projet.
 Permet de travailler sur plusieurs versions en même temps. Exemple classique : main, dev, v2.
 
 D'autres version control system (système de gestion de versions) ont existé avant :
-Les systèmes centralisés et les systèmes distribués.
+Les systèmes centralisés et
+Les systèmes distribués : Permet d'avoir une zone intermédiraire en local. Faire des brouillons en local sans envoyer sur la version en ligne.
+
+Git est un système distribué car chaque personne a une copie sur son ordi en local.
 
 - Gérer du texte
 - Agnostique vis à vis du langage
