@@ -50,5 +50,7 @@ Branche de travail :
 - Les branches de travail oeuvent aussi être synchronisées avec le serveur.
 
 `git checkout -b <branch_name>` : Créer une branche avec le nom contenu dans <branch_name>.
+
 `git checkout <branch_name>` : Basculer d'une branche à l'autre.
+
 `git branch` : Afficher les branches existantes.
