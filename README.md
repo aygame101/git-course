@@ -96,6 +96,6 @@ Maintenant que votre dossier git est initialisé, vous pouvez commencer à trava
 - `git reset <id>` : Supprimer l'historique commit que je ne souhaite plus. 
 
 
-
+aaaaa
 
 **Groupe** : Gino, Antoine, Nathan, Ewen.
