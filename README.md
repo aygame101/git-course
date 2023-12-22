@@ -27,10 +27,20 @@ Git est un système de gestion de versions qui offre de nombreux avantages :
 
 11. **Distribué mais pas décentralisé** : Il est important de noter que Git est distribué, mais pas décentralisé, car il n'y a pas de point central unique de contrôle, mais chaque utilisateur a sa propre copie du dépôt.
 
-## Comment récuperer un projet git
-- `git clone <urlrepo.git>` : Récupérer un projet git pour travailler desssus.
+## Créer son projet git de 0
+Dans un premier temps, nous devons installer git avec la commande `sudo apt install git-all` pour une distribution basé sur Debian. Pour les autres OS vous pouvez voir en détail ce qu'il faut faire sur [__ce lien__](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git).
+
+Maintenant que git est installé sur notre machine Nous allons créer un repo git. Pour cela nous pouvons passer par l'interface sur github.com et cliquer sur le "+" puis sur "New repository". 
+Mais on peut également le faire via une commande : `git init`.
+
+Maintenant que votre dossier git est initialisé, vous pouvez commencer à travailler sur le projet concerné. Pour cela, à chaque modification que vous pensez un minimum importante, vous pouvez effectuer différentes commandes. Pour voir quels fichiers ont été modifiés et si ils sont en attente d'être commité, vous pouvez faire un `git status`. Avec le retour qu'envoie cette commande, vous pouvez choisir de commiter tout les fichiers avec `git add .` (le . équivaut à tous les fichiers) ou alors vous pouvez choisir d'ajouter que certains fichier avec `git add example.py`. A partir de là, tout les fichiers ajouté seront associé au commit que vous allez réaliser avec `git commit -m "message du commit`.
+
+---
+
+## Résumé des commandes git
  
-## Fonctions principales :
+### Comment récuperer un projet git
+- `git clone <urlrepo.git>` : Récupérer un projet git pour travailler desssus.
 
 ### Initialisation du dépôt
 - `git init` : Initialise un dépôt Git.
