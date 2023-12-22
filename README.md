@@ -33,10 +33,11 @@ Dans un premier temps, nous devons installer git avec la commande `sudo apt inst
 Maintenant que git est installé sur notre machine Nous allons créer un repo git. Pour cela nous pouvons passer par l'interface sur github.com et cliquer sur le "+" puis sur "New repository". 
 Mais on peut également le faire via une commande : `git init`.
 
+Maintenant que votre dossier git est initialisé, vous pouvez commencer à travailler sur le projet concerné. Pour cela, à chaque modification que vous pensez un minimum importante, vous pouvez effectuer différentes commandes. Pour voir quels fichiers ont été modifiés et si ils sont en attente d'être commité, vous pouvez faire un `git status`. Avec le retour qu'envoie cette commande, vous pouvez choisir de commiter tout les fichiers avec `git add .` (le . équivaut à tous les fichiers) ou alors vous pouvez choisir d'ajouter que certains fichier avec `git add example.py`. A partir de là, tout les fichiers ajouté seront associé au commit que vous allez réaliser avec `git commit -m "message du commit`.
+
+
 ## Comment récuperer un projet git
 - `git clone <urlrepo.git>` : Récupérer un projet git pour travailler desssus.
- 
-## Fonctions principales :
 
 ### Initialisation du dépôt
 - `git init` : Initialise un dépôt Git.
