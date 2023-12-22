@@ -28,7 +28,7 @@ Git est un système de gestion de versions qui offre de nombreux avantages :
 11. **Distribué mais pas décentralisé** : Il est important de noter que Git est distribué, mais pas décentralisé, car il n'y a pas de point central unique de contrôle, mais chaque utilisateur a sa propre copie du dépôt.
 
 ## Créer son projet git de 0
-Dans un premier temps, nous devons installer git avec la commande `sudo apt install git-all` pour une distribution basé sur Debian. Pour les autres OS vous pouvez voir en détail ce qu'il faut faire sur [ce lien](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git).
+Dans un premier temps, nous devons installer git avec la commande `sudo apt install git-all` pour une distribution basé sur Debian. Pour les autres OS vous pouvez voir en détail ce qu'il faut faire sur [__ce lien__](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git).
 
 Maintenant que git est installé sur notre machine Nous allons créer un repo git. Pour cela nous pouvons passer par l'interface sur github.com et cliquer sur le "+" puis sur "New repository". 
 Mais on peut également le faire via une commande : `git init`.
